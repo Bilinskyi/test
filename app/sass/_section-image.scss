@@ -1,0 +1,49 @@
+.section-image {
+  background-image: url(../img/sl-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  @media #{$bp-large} {
+    background-image: url(../img/sl-2.jpg);
+  }
+  @media #{$bp-xsmall} {
+        background-image: url(../img/sl-3.jpg);
+  }
+  .src {
+    text-align: left;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    li {
+      display: inline-block;
+      &:not(:last-child) a:after {
+        content: '/';
+        position: absolute;
+        right: 0px;
+      }
+      &:not(:last-child) a {
+        text-decoration: underline;
+        padding-right: 10px;
+      }
+      a {
+        position: relative;
+        text-decoration: none;
+        font-size: 14px;
+        line-height: 21px;
+        color: white;
+      }
+    }
+  }
+  h1 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    padding: 81px 0 95px;
+    @media #{$bp-medium} {
+          padding: 55px 0 52px;
+          font-size: 40px;
+line-height: 50px;
+    }
+  }
+}

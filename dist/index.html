@@ -8,7 +8,7 @@
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,700&subset=cyrillic" rel="stylesheet">
-	<link rel="stylesheet" href="css/min-all-style.css">
+	<link rel="stylesheet" href="css/min-all-style.css">	
 	<!--[if lt IE 9]>
 	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js">
 	</script><script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -20,7 +20,7 @@
 		<div class="container">
 			<div class="header-flex">
 				<div class="header-flex-item">
-					<a href="index.html" class="logo"><img src="img/logo.png" alt="" width="216" height="56"></a>
+					<a href="index.html" class="logo"><img src="img/logo.png" alt="" width="216" height="56"><img class="l-xs" src="img/logo-xs.png" alt="" width="39" height="34"></a>
 				</div>
 				<div class="header-flex-item">
 					<ul class="header-contact-l">
@@ -40,11 +40,12 @@
 				<div class="header-flex-item">
 					<div class="drop-language">English</div>
 					<ul class="languages">
-						<li>France</li>
-						<li>Ukraine</li>
+						<li><a href="#">France</a></li>
+						<li><a href="#">Ukraine</a></li>
 					</ul>
 				</div>
 			</div> 
+			<div class="menu-btn"></div>
 		</div>
 		<div class="header-menu">
 			<div class="container">
@@ -102,6 +103,7 @@
 						<li><a href="#">Patient Success stories </a></li>
 						<li><a href="#">Blogs</a></li>
 						<li><a href="#">Contact</a></li>
+						<li class="more-link"><a href="#">More</a></li>
 					</ul>
 					<div class="form-search">
 						<form action="#" method="post">
@@ -128,7 +130,7 @@
 		<div class="container">
 			
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-1 col-xs-1 shadow">
 					<ul class="article-nav">
 						<li class="active"><a href="#">IVF</a></li>
 						<li><a href="#">ICSI</a></li>
@@ -147,9 +149,9 @@
 						<li><a href="#">Surrogacy</a></li>
 					</ul>
 				</div>
-				<div class="col-md-9 pull-right">
-					<div class="row">
-						<div class="col-md-5">
+				<div class="col-md-9 col-sm-11 col-xs-11 pull-right">
+					<div class="row content-margin">
+						<div class="col-md-5 col-sm-12 col-xs-12">
 							<div class="text-block">
 								<h3>Egg donor catalogs</h3>
 								<p>
@@ -162,7 +164,7 @@
 								<a href="#" class="button">Show database</a>
 							</div>
 						</div>
-						<div class="col-md-7">
+						<div class="col-md-7 col-sm-12 col-xs-12"">
 							<div class="slider">
 								<div class="owl-carousel">
 									<div><img src="img/slider-1-1.jpg" alt="" width="444" height="335"></div>
@@ -172,10 +174,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-md-5">
+					<div class="row content-margin">
+						<div class="col-md-5 col-sm-12 col-xs-12"">
 							<div class="text-block">
-								<h3>Sperm donor<br>catalogs</h3>
+								<h3>Sperm donor catalogs</h3>
 								<p>
 									IVF (in vitro fertlisation) involves retrieving eggs from a woman’s ovaries and fertilising these in the laboratory with sperm from either her partner or a donor to create embryos which are replaced back into her womb to develop as a normal pregnancy. 
 									<br><br> 
@@ -186,7 +188,7 @@
 								<a href="#" class="button">Show database</a>
 							</div>
 						</div>
-						<div class="col-md-7">
+						<div class="col-md-7 col-sm-12 col-xs-12"">
 							<div class="slider">
 								<div class="owl-carousel">
 									<div><img src="img/slider-1-2.jpg" alt="" width="444" height="335"></div>
@@ -197,7 +199,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3 clear-l">
+				<div class="col-md-3 col-sm-11 col-xs-11 pull-right clear-l">
 					<form class="form-left" method="post" id="feedback-valid-1" action="sendmail.php">
 						<h5>Contact Us</h5>
 						<input type="text" name="name" placeholder="Your Name">  
@@ -254,6 +256,7 @@
 						<li><a href="#">Success Rates</a></li>
 						<li><a href="#">Location</a></li>
 						<li><a href="#">3-D Clinic Tour</a></li>
+						<li><a href="#">Photo Gallery</a></li>
 					</ul>
 				</div>
 				<div>
@@ -303,7 +306,9 @@
 						<a class="wrapp-icon" href="#"><span class="icon-yb"></span></a>
 						<a class="wrapp-icon" href="#"><span class="icon-gg"></span></a>
 					</div>
-					<div class="auth">Design and Development by <span>OTAKOYI</span></div>
+					<div class="auth">
+						<div class="wr">Design and Development<br>by <span>OTAKOYI</span></div>
+					</div>
 				</div>
 			</div>
 		</div>
